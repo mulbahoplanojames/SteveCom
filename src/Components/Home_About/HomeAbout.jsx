@@ -1,10 +1,10 @@
 import { GiOrange } from "react-icons/gi";
 import { PiOrangeFill } from "react-icons/pi";
-import imageabout from "/src/assets/about.jpg";
+import imageabout from "/src/assets/01.rev.png";
 const HomeAbout = () => {
   return (
     <>
-      <div className="md:px-10 px-4 py-10 grid md:grid-cols-2 grid-cols-1 md:gap-6 gap-y-4">
+      <div className="md:px-10 px-4 py-10 grid md:grid-cols-2 grid-cols-1 md:gap-6 gap-y-4 place-items-center">
         <div className="w-full h-fit">
           <p className="font-semibold text-primary text-lg pb-4">
             Welcome to Steve Com
