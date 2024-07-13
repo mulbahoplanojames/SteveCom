@@ -16,7 +16,7 @@ const NavHeader = () => {
         <div className="bg-primary w-full flex items-center md:gap-12 gap-y-2 gap-x-8 md:px-8 px-4 py-2 flex-wrap md:border-l-4 border-white">
           <p className="flex items-center gap-3">
             <IoMdMail />
-            <span>example@gmail.com</span>
+            <span>steve@gmail.com</span>
           </p>
           <p className="flex items-center gap-3">
             <FaClock /> <span>Bong County, Liberia</span>
