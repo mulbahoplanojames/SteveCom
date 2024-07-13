@@ -25,7 +25,7 @@ export default navLinks;
 // ===============================================================================
 import image1 from "/src/assets/1.jpg";
 import image2 from "/src/assets/2.jpg";
-import image3 from "/src/assets/3.jpg";
+import image3 from "/src/assets/02.jpg";
 export const homeServicesData = [
   {
     id: 1,

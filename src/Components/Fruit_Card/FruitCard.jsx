@@ -5,8 +5,9 @@ import { storeContext } from "../../Context/StoreContaxt";
 import add_icon_white from "/src/assets/add_icon_white.png";
 import add_icon_green from "/src/assets/add_icon_green.png";
 import remove_icon_red from "/src/assets/remove_icon_red.png";
+import rating_star from "/src/assets/rating_starts.png";
 
-const FoodCard = (props) => {
+const FruitCard = (props) => {
   // Destructuring the props to get the necessary data
   const { id, name, image, price, description, cateory } = props;
 
@@ -19,7 +20,11 @@ const FoodCard = (props) => {
         {/* Wrap the image in a div with specific styles */}
         <div className="relative">
           {/* Display the image */}
-          <img src={image} alt={`${cateory} image`} className="w-full" />
+          <img
+            src={image}
+            alt={`${cateory} image`}
+            className="w-full md:h-[13rem] h-[16rem]"
+          />
           {
             /* Conditionally render the add to cart button or the counter wrapper */
             !cartItems[id] ? (
@@ -38,7 +43,7 @@ const FoodCard = (props) => {
                   src={remove_icon_red}
                   alt="remove_from_cart"
                   onClick={() => removeFromCart(id)}
-                  className="w-[25px] h-[25px] cursor-pointer bg-red-400"
+                  className="w-[25px] h-[25px] cursor-pointer "
                 />
                 {/* Display the count of the food item in the cart */}
                 <p>{cartItems[id]}</p>
@@ -60,7 +65,7 @@ const FoodCard = (props) => {
             {/* Display the name of the food item */}
             <p className="font-bold">{name}</p>
             {/* Display the rating starts image */}
-            <img src={""} alt="" className="w-[80px]" />
+            <img src={rating_star} alt="" className="w-[80px]" />
           </div>
           {/* Display the description of the food item */}
           <p className="text-[14px] pb-3 text-text_light">{description}</p>
@@ -72,5 +77,5 @@ const FoodCard = (props) => {
   );
 };
 
-// Export the FoodCard component
-export default FoodCard;
+// Export the FruitdCard component
+export default FruitCard;

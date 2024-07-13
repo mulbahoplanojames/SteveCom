@@ -1,10 +1,10 @@
-import image1 from "/src/assets/11.jpg";
-import image2 from "/src/assets/1.jpg";
-import image3 from "/src/assets/2.jpg";
-import image4 from "/src/assets/3.jpg";
-import image5 from "/src/assets/4.jpg";
-import image6 from "/src/assets/21.jpg";
-import image7 from "/src/assets/bg1.jpg";
+import image1 from "/src/assets/01.jpg";
+import image2 from "/src/assets/02.jpg";
+import image3 from "/src/assets/03.jpg";
+import image4 from "/src/assets/04.jpg";
+import image5 from "/src/assets/05.jpg";
+import image6 from "/src/assets/06.jpg";
+import image7 from "/src/assets/07.jpg";
 
 const fruit_list = [
   {
