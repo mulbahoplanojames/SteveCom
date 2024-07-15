@@ -30,7 +30,7 @@ const Navbar = () => {
               <li key={navlink.label} className={`inline-block px-8 `}>
                 <Link
                   to={navlink.path}
-                  className={`font-montserrat focus:text-black text-base leading-normal text-white`}
+                  className={`font-montserrat focus:text-primary text-base leading-normal text-white`}
                 >
                   {navlink.label}
                 </Link>
