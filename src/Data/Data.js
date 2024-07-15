@@ -49,3 +49,49 @@ export const homeServicesData = [
       "We provide healthy organic Oranges to help you live a healthy life. We care about your health. Our Fruits and Vegetables are organic. ",
   },
 ];
+
+// ===========================================================================
+
+import farmer1 from "/src/assets/farmer1.jpg";
+import farmer2 from "/src/assets/farmer2.jpg";
+import farmer3 from "/src/assets/farmer3.jpg";
+// import farmer1 from "/src/assets/farmer1.jpg"
+
+export const farmerData = [
+  {
+    id: 1,
+    name: "Peter Flomo",
+    position: "Lead Farmer",
+    image: farmer1,
+  },
+  {
+    id: 2,
+    name: "John Doe",
+    position: "Farm Manager",
+    image: farmer2,
+  },
+  {
+    id: 3,
+    name: "Matthew Kolubah",
+    position: "Farmer",
+    image: farmer3,
+  },
+  {
+    id: 4,
+    name: "Edwin Zayzay",
+    position: "Farmer",
+    image: farmer1,
+  },
+  {
+    id: 5,
+    name: "Francis Korboi",
+    position: "Farmer",
+    image: farmer2,
+  },
+  {
+    id: 6,
+    name: "Oscar Kpehe",
+    position: "Farmer",
+    image: farmer3,
+  },
+];

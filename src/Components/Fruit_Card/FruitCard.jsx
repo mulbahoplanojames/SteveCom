@@ -32,7 +32,7 @@ const FruitCard = (props) => {
               <img
                 src={add_icon_white}
                 alt="add_to_cart"
-                className="w-[35px] h-[35px] cursor-pointer absolute bottom-4 right-4"
+                className="w-[40px] h-[40px] cursor-pointer absolute bottom-4 right-4"
                 onClick={() => addToCart(id)}
               />
             ) : (
@@ -43,7 +43,7 @@ const FruitCard = (props) => {
                   src={remove_icon_red}
                   alt="remove_from_cart"
                   onClick={() => removeFromCart(id)}
-                  className="w-[25px] h-[25px] cursor-pointer "
+                  className="w-[28px] h-[28px] cursor-pointer "
                 />
                 {/* Display the count of the food item in the cart */}
                 <p>{cartItems[id]}</p>
@@ -51,7 +51,7 @@ const FruitCard = (props) => {
                 <img
                   src={add_icon_green}
                   alt="added_to_cart"
-                  className="w-[25px] h-[25px] cursor-pointer "
+                  className="w-[28px] h-[28px] cursor-pointer "
                   onClick={() => addToCart(id)}
                 />
               </div>
