@@ -1,6 +1,6 @@
 import { GiOrange } from "react-icons/gi";
 import { PiOrangeFill } from "react-icons/pi";
-import imageabout from "/src/assets/01.rev.png";
+import imageabout from "/src/assets/cashew1.png";
 const HomeAbout = () => {
   return (
     <>
