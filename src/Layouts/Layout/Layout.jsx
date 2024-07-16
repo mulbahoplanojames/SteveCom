@@ -9,7 +9,7 @@ const Layout = () => {
       <NavHeader />
       <Navbar />
       <div className="md:mt-[6rem] mt-[11.8rem]">{<Outlet />}</div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
