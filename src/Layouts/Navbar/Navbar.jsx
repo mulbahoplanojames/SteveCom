@@ -31,6 +31,7 @@ const Navbar = () => {
                 <Link
                   to={navlink.path}
                   className={`font-montserrat focus:text-primary text-base leading-normal text-white`}
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   {navlink.label}
                 </Link>
