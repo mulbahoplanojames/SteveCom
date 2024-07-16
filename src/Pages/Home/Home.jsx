@@ -15,7 +15,10 @@ const Home = () => {
       <HomeHero />
       <HomeAbout />
       <HomeServices />
-      <FruitDsiplay category={category} />
+      <FruitDsiplay
+        category={category}
+        text={"Top Oranges and Fruits near you"}
+      />
       <WhyChooseUs />
       <Farmers />
       <NewsLetter />

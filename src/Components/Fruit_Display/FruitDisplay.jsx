@@ -13,16 +13,14 @@ import { storeContext } from "../../Context/StoreContaxt";
 // displaying each individual food item.
 import FruitCard from "../Fruit_Card/FruitCard";
 
-const FruitDsiplay = ({ category }) => {
+const FruitDsiplay = ({ category, text }) => {
   // Using the useContext hook to access the fruit_list array from the storeContext.
   const { fruit_list } = useContext(storeContext);
 
   return (
     <>
       <div className="mt-20 mb-20 md:px-14 px-6">
-        <h1 className="pb-6 text-3xl font-semibold">
-          Top Oranges and Fruits near you
-        </h1>
+        <h1 className="pb-8 text-3xl font-semibold">{text}</h1>
 
         {/* Adding a grid layout with 4 columns for large devices, 2 columns for medium devices, 
              and a single column for small devices. The items in the grid are centered both 
