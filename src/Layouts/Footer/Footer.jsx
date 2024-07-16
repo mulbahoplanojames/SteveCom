@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 
+const text = `Cashew provides a livelihood for over 300,000 households and sustains 600,000 jobs across the value chain activities as harvesters, transporters, processors, marketers, and exporters.`;
+
 const Footer = () => {
   return (
     <>
       <div className="grid md:grid-cols-3 grid-cols-1 bg-dark text-white py-16 md:px-12 px-6 md:gap-8 gap-y-10 ">
         <div className="">
-          <h1 className="text-3xl font-bold pb-4">About Company</h1>
+          <h1 className="text-3xl font-bold pb-4 capitalize">
+            About <span className="text-primary">Naa-Kaai-kai</span>
+          </h1>
 
-          <p className="text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-            voluptatem, quibusdam rem, consequatur facilis dolore, voluptas
-            voluptates doloribus sit quia.
-          </p>
+          <p className="text-lg">{text}</p>
         </div>
         <div className="">
           <h1 className="text-3xl font-bold pb-4">Contact Us</h1>

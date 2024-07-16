@@ -12,18 +12,18 @@ const Farmers = () => {
         <div className="grid md:grid-cols-3 grid-cols-1 md:gap-8 gap-y-8 mt-8">
           {farmerData.map((farmer) => (
             <div
-              className="w-full bg-white hover:rounded-lg group relative shadow-lg rounded-lg overflow-hidden text-primary"
+              className="w-full bg-white hover:rounded-lg group  shadow-lg rounded-lg overflow-hidden text-black"
               key={farmer.id}
             >
               <div className="w-full md:h-[20rem] h-[17rem]  overflow-hidden">
                 <img
                   src={farmer.image}
                   alt=""
-                  className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
+                  className="w-full h-full  group-hover:scale-110 transition-all duration-300"
                 />
               </div>
 
-              <div className="absolute bottom-0 left-0 bg-black rounded-md">
+              <div className=" rounded-md">
                 <h1 className="md:text-xl text-lg font-bold px-2 pt-4 pb-2">
                   {farmer.name}
                 </h1>

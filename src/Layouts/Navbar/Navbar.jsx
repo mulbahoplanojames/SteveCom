@@ -21,7 +21,7 @@ const Navbar = () => {
       >
         {/* Link to the home page */}
         <Link to="/" className={`text-2xl font-bold `}>
-          Steve<span className="text-primary">Com</span>
+          Naa-Kaai-Kai<span className="text-primary"> Enterprise</span>
         </Link>
         {/*//! Menu items for larger devices and mapping through the links */}
         <div>

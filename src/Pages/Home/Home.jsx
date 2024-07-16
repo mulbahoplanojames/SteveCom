@@ -7,6 +7,7 @@ import WhyChooseUs from "../../Components/Why_Choose_Us/WhyChooseUs";
 import Farmers from "../../Components/Our_Farmers/Farmers";
 import NewsLetter from "../../Components/NewsLetter/NewsLetter";
 import ContactUsForm from "../../Components/ContactUs_Form/ContactUsForm";
+import Gallery from "../../Components/Gallery/Gallery";
 
 const Home = () => {
   const [category, setCategory] = useState("All");
@@ -14,14 +15,15 @@ const Home = () => {
   return (
     <>
       <HomeHero />
-      <HomeAbout />
-      <HomeServices />
+      <HomeAbout text={"Welcome"} />
+      {/* <HomeServices /> */}
+      <Farmers />
+      <Gallery />
       <FruitDsiplay
         category={category}
         text={"Top Oranges and Fruits near you"}
       />
       <WhyChooseUs />
-      <Farmers />
       <NewsLetter />
       <ContactUsForm />
     </>

@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <AllHero title="About Us" text={"About"} />
-      <HomeAbout />
+      <HomeAbout text={"About Us"} />
       <AboutDetails />
       <DetailsTwo />
       <Gallery />

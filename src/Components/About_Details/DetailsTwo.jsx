@@ -3,27 +3,34 @@ import image2 from "/src/assets/img3.jpg";
 import image3 from "/src/assets/img2.jpg";
 import image4 from "/src/assets/img4.jpg";
 
-const text1 = ` At our company, we are committed to supplying premium quality
-            cashews specifically tailored for the health services sector. Our
-            cashews are carefully sourced and rigorously processed to ensure the
-            highest standards of quality and safety. . Recognizing the
-            nutritional benefits of cashews, we aim to provide health
-            institutions with a reliable source of these nutritious nuts,
-            supporting their mission to promote better health and well-being`;
+const text1 = `Though, cashew (Anacardium occidentale L.), is an exotic horticultural crop brought to
+ Liberia by travellers but now adapted well in the Liberian climatic conditions. It has been grown in the country with little ideas for many farmers Due to its high nutritional value and increasing affordability by the consumers, demand
+ for cashew continues to increase in foreign countries with a deadlock in Liberia. There is a wide gap between potential productivity and present production.
+ The major factors for low productivity are:`;
 
-const text2 = `We are dedicated to supplying premium quality cashew training programs to our farmer institutions and health services. Our training initiatives are designed to enhance the skills and knowledge of cashew farmers, ensuring they can produce the highest quality nuts. By providing comprehensive training on best practices in cultivation, harvesting, and processing, we empower farmers to improve their yields and product quality.
-
-`;
+const text2 = `Choose the right cashew varieties that are well-adapted to the local conditions.  For commercial purposes, selecting the dwarf varieties is key to maximizing yield and quality products for the market. This may involve consulting with agricultural experts or research institution and established Cashew farm in the region. A medium nut types with high yield are recommended for cultivation in cashew farm for economic purposes. These varieties shown better yield performance in other cashew growing regions of the world as well. `;
 
 const DetailsTwo = () => {
   return (
     <>
       <div className="md:px-10 px-4 pb-10 md:pb-14 grid md:grid-cols-2 grid-cols-1 md:gap-6 gap-y-10 place-items-center">
         <div className="w-full h-fit">
-          <h1 className="md:text-4xl md:pb-6 pb-4 text-3xl font-bold md:pr-[9rem]">
-            We Supply Premium Quality Cashews for Health Services
+          <h1 className="md:text-4xl md:pb-6 pb-4 text-3xl font-bold md:pr-[9rem] capitalize">
+            cashew (Anacardium occidentale L.)
           </h1>
-          <p className="text-base pb-8  md:pr-[5rem]">{text1}</p>
+          <p className="text-base pb-3  md:pr-[5rem]">{text1}</p>
+          <ul className="list-disc pl-6">
+            <li className="text-base pb-4">
+              Land Tenure System in the Country
+            </li>
+            <li className="text-base pb-4">Lack of knowledge by Farmers</li>
+            <li className="text-base pb-4">
+              No information on Cashew production in Liberia
+            </li>
+            <li className="text-base pb-4">
+              Lack of large Cashew plantation in the region
+            </li>
+          </ul>
         </div>
         {/* ---------------------   */}
         <div className="w-full md:w-[80%] h-[20rem] relative md:order-last order-first">
@@ -64,9 +71,8 @@ const DetailsTwo = () => {
         </div>
 
         <div className="w-full h-fit">
-          <h1 className="md:text-4xl md:pb-6 pb-4 text-3xl font-bold md:pr-[9rem]">
-            We Supply Premium Quality Cashews Tranings to Our farmer
-            Institutions and Health Services
+          <h1 className="md:text-4xl md:pb-6 pb-4 text-3xl font-bold md:pr-[9rem] capitalize">
+            Varieties selection
           </h1>
           <p className="text-base pb-8  md:pr-[5rem]">{text2}</p>
         </div>
