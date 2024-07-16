@@ -10,13 +10,13 @@ const HomeAbout = () => {
             Welcome to Steve Com
           </p>
           <h1 className="md:text-4xl md:pb-6 pb-4 text-3xl font-bold md:pr-[9rem]">
-            We Provide For Health High Quilty Orange In Servces
+            We Provide For Health High Quilty Cashew In Servces
           </h1>
-          <p className="text-base pb-8  md:pr-[10rem]">
-            Lorem ipsum dolor sit amet elit , consectetur adipiscing , sed
-            eiusmod tempor sit amet elit dolor sit amet elit.Lorem ipsum dolor
-            sit amet elit , consectetur adipiscing , sed eiusmod tempor sit amet
-            elit.
+          <p className="text-base pb-8  md:pr-[6rem]">
+            At our company, we are committed to supplying premium quality
+            cashews specifically tailored for the health services sector. Our
+            cashews are carefully sourced and rigorously processed to ensure the
+            highest standards of quality and safety.
           </p>
 
           {/* card 1 */}
