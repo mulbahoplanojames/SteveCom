@@ -1,6 +1,6 @@
 import { GiOrange } from "react-icons/gi";
 import { PiOrangeFill } from "react-icons/pi";
-import imageabout from "/src/assets/cashew1.png";
+import imageabout from "/src/assets/cashew6.jpg";
 const HomeAbout = () => {
   return (
     <>
@@ -26,7 +26,7 @@ const HomeAbout = () => {
             </div>
             <div className="">
               <h1 className="md:text-2xl pb-3 text-lg font-bold">
-                Natural Oranges
+                Natural Cashew
               </h1>
               <p className=" text-base md:pr-40">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
@@ -42,7 +42,7 @@ const HomeAbout = () => {
             </div>
             <div className="">
               <h1 className="md:text-2xl pb-3 text-lg font-bold">
-                High Quilty Oranges
+                High Quilty Cashew
               </h1>
               <p className=" text-base md:pr-40 ">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet

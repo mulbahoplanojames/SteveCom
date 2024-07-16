@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { TbMenu2 } from "react-icons/tb";
 import { MdOutlineCancelPresentation } from "react-icons/md";
-import navLinks from "../../Data/Data";
 import { Link } from "react-router-dom";
+import navLinks from "../../Data/Data";
 // import ToggleDarkModeIcon from "../../Components/Toggle_DarkMode/ToggleDarkModeIcon";
 
 /**
