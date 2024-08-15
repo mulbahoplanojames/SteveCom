@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { farmerData } from "../../Data/Data";
 
 const Farmers = () => {
@@ -15,20 +16,22 @@ const Farmers = () => {
               className="w-full bg-white hover:rounded-lg group  shadow-lg rounded-lg overflow-hidden text-black"
               key={farmer.id}
             >
-              <div className="w-full md:h-[20rem] h-[17rem]  overflow-hidden">
-                <img
-                  src={farmer.image}
-                  alt=""
-                  className="w-full h-full  group-hover:scale-110 transition-all duration-300"
-                />
-              </div>
+              <Link to={farmer.link}>
+                <div className="w-full md:h-[20rem] h-[17rem]  overflow-hidden">
+                  <img
+                    src={farmer.image}
+                    alt=""
+                    className="w-full h-full  group-hover:scale-110 transition-all duration-300"
+                  />
+                </div>
 
-              <div className=" rounded-md">
-                <h1 className="md:text-xl text-lg font-bold px-2 pt-4 pb-2">
-                  {farmer.name}
-                </h1>
-                <p className=" text-base px-2  pb-4">{farmer.position}</p>
-              </div>
+                <div className=" rounded-md">
+                  <h1 className="md:text-xl text-lg font-bold px-2 pt-4 pb-2">
+                    {farmer.name}
+                  </h1>
+                  <p className=" text-base px-2  pb-4">{farmer.position}</p>
+                </div>
+              </Link>
             </div>
           ))}
         </div>

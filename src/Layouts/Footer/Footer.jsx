@@ -20,26 +20,28 @@ const Footer = () => {
               Bong, County Liberia
             </li>
             <li className="text-lg hover:text-primary pb-2">
-              (+231) 123 456 789
+              (+231) 886 - 918 - 713
             </li>
-            <li className="text-lg hover:text-primary pb-2">steve@gmail.com</li>
+            <li className="text-lg hover:text-primary pb-2">
+              alexkolleh@gmail.com
+            </li>
           </ul>
         </div>
         <div className="">
           <h1 className="text-3xl font-bold pb-4">Quick Links</h1>
           <ul className="flex flex-col">
-            <Link to="/" className="text-lg hover:text-primary pb-2">
+            <a href="/" className="text-lg hover:text-primary pb-2">
               Home
-            </Link>
-            <Link to="/about" className="text-lg hover:text-primary pb-2">
+            </a>
+            <a href="/about" className="text-lg hover:text-primary pb-2">
               About
-            </Link>
-            <Link to="/service" className="text-lg hover:text-primary pb-2">
+            </a>
+            <a href="/service" className="text-lg hover:text-primary pb-2">
               Services
-            </Link>
-            <Link to="/contact" className="text-lg hover:text-primary pb-2">
+            </a>
+            <a href="/contact" className="text-lg hover:text-primary pb-2">
               Contact
-            </Link>
+            </a>
           </ul>
         </div>
       </div>

@@ -63,18 +63,21 @@ export const farmerData = [
     name: "Edward W. Karfiah ",
     position: "Proprietor",
     image: eward,
+    link: "/about",
   },
   {
     id: 2,
     name: "Alex Dortie Kolleh",
     position: "Manager",
     image: alex,
+    link: "",
   },
   {
     id: 3,
     name: "Matthew Kolubah",
     position: "Farmer",
     image: alex,
+    link: "",
   },
   // {
   //   id: 4,

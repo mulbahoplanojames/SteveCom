@@ -18,8 +18,8 @@ const About = () => {
       <Gallery />
       <AboutFounder />
       <CommunityWork />
-      {/* <FAQ /> */}
-      {/* <NewsLetter /> */}
+      <FAQ />
+      <NewsLetter />
     </>
   );
 };
