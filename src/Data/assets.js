@@ -120,3 +120,87 @@ const fruit_list = [
 ];
 
 export default fruit_list;
+
+// =====================================================================================
+
+import comm1 from "/src/assets/comm1.png";
+import comm2 from "/src/assets/comm2.png";
+import comm3 from "/src/assets/comm3.png";
+import comm4 from "/src/assets/comm4.png";
+import comm5 from "/src/assets/comm5.png";
+import comm6 from "/src/assets/comm6.png";
+import comm7 from "/src/assets/comm7.png";
+import comm8 from "/src/assets/comm8.png";
+import comm9 from "/src/assets/comm9.png";
+import comm10 from "/src/assets/comm10.png";
+import comm11 from "/src/assets/comm11.png";
+import comm12 from "/src/assets/comm12.png";
+import comm13 from "/src/assets/comm13.png";
+
+export const communityData = [
+  {
+    id: 1,
+    image: comm1,
+    text: "Hon. Edward W.  Karfiah with women Village Saving Club",
+  },
+  {
+    id: 2,
+    image: comm2,
+    text: "Hon. Alex Dortie Kolleh with women Village Saving Club",
+  },
+  {
+    id: 3,
+    image: comm3,
+    text: "Women sowing beans",
+  },
+  {
+    id: 4,
+    image: comm4,
+    text: "Some elders of Salala District during the Totota community clinic ground breaking ceremony",
+  },
+  {
+    id: 5,
+    image: comm5,
+    text: "Presentation of statement of funding to women programs",
+  },
+  {
+    id: 6,
+    image: comm6,
+    text: "Community and elders at program marking groundbreaking for the Totota clinic construction",
+  },
+  {
+    id: 7,
+    image: comm7,
+    text: "Farm clearing",
+  },
+  {
+    id: 8,
+    image: comm8,
+    text: "A four year old boy posting with the orange nursery ",
+  },
+  {
+    id: 9,
+    image: comm9,
+    text: "Women in discussion for farm work activities",
+  },
+  {
+    id: 10,
+    image: comm10,
+    text: "Orange nursery",
+  },
+  {
+    id: 11,
+    image: comm11,
+    text: "Two weeks old chicks",
+  },
+  {
+    id: 12,
+    image: comm12,
+    text: "A breast feeding mother finds time to care at work",
+  },
+  {
+    id: 13,
+    image: comm13,
+    text: "Community women at work",
+  },
+];

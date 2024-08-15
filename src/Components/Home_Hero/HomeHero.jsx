@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HomeHero = () => {
   return (
     <>
@@ -15,12 +17,18 @@ const HomeHero = () => {
         </p>
 
         <div className="">
-          <button className="py-2 px-4 rounded-md bg-primary text-lg hover:bg-black transition-all duration-300">
+          <Link
+            to="/product"
+            className="py-2 px-4 rounded-md bg-primary text-lg hover:bg-black transition-all duration-300"
+          >
             Buy Now
-          </button>
-          <button className="py-2 px-4 rounded-md bg-transparent border-2 border-white text-lg ml-5 hover:bg-black hover:border-transparent transition-all duration-300">
+          </Link>
+          <Link
+            to="/"
+            className="py-2 px-4 rounded-md bg-transparent border-2 border-white text-lg ml-5 hover:bg-black hover:border-transparent transition-all duration-300"
+          >
             Order Now
-          </button>
+          </Link>
         </div>
       </div>
     </>

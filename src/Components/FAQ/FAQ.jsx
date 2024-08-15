@@ -3,7 +3,7 @@ import { FAQData } from "../../Data/Data";
 const FAQ = () => {
   return (
     <>
-      <div className="md:px-8 px-3 pt-8 pb-8">
+      <div className="md:px-8 px-3 pt-8 pb-8 text-center">
         <p className="text-primary text-lg uppercase font-bold pb-2">
           Asked Question
         </p>

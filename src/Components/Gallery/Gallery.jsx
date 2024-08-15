@@ -6,7 +6,7 @@ import image5 from "/src/assets/img5.jpg";
 import image6 from "/src/assets/img13.jpg";
 import image7 from "/src/assets/img14.jpg";
 import image8 from "/src/assets/img12.jpg";
-import image9 from "/src/assets/img15.jpg";
+// import image9 from "/src/assets/img15.jpg";
 import image10 from "/src/assets/img16.jpg";
 import image11 from "/src/assets/img17.jpg";
 
