@@ -10,13 +10,13 @@ const NavHeader = () => {
         <div className="bg-dark w-full md:pl-14 pl-4 py-2">
           <p className="flex items-center gap-3">
             <PiPhoneCallFill />
-            <span>Call for Order : +231 767 235 135</span>
+            <span>Call for Order : +231 886 - 918 - 713</span>
           </p>
         </div>
         <div className="bg-primary w-full flex items-center md:gap-12 gap-y-2 gap-x-8 md:px-8 px-4 py-2 flex-wrap md:border-l-4 border-white">
           <p className="flex items-center gap-3">
             <IoMdMail />
-            <span>steve@gmail.com</span>
+            <span>alexkolleh@gmail.com</span>
           </p>
           <p className="flex items-center gap-3">
             <FaClock /> <span>Bong County, Liberia</span>
