@@ -54,7 +54,7 @@ export const homeServicesData = [
 
 import alex from "/src/assets/alex.jpg";
 import eward from "/src/assets/eward.jpg";
-import farmer3 from "/src/assets/farmer3.jpg";
+// import farmer3 from "/src/assets/farmer3.jpg";
 // import farmer1 from "/src/assets/farmer1.jpg"
 
 export const farmerData = [
@@ -74,7 +74,7 @@ export const farmerData = [
     id: 3,
     name: "Matthew Kolubah",
     position: "Farmer",
-    image: farmer3,
+    image: alex,
   },
   // {
   //   id: 4,

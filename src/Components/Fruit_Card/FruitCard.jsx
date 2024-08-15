@@ -70,7 +70,7 @@ const FruitCard = (props) => {
           {/* Display the description of the food item */}
           <p className="text-[14px] pb-3 text-text_light">{description}</p>
           {/* Display the price of the food item */}
-          <p className="text-lg text-accent_light font-bold">${price}</p>
+          {/* <p className="text-lg text-accent_light font-bold">${price}</p> */}
         </div>
       </div>
     </>
