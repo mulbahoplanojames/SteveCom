@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import React, { Suspense } from "react";
 
 import Layout from "./Layouts/Layout/Layout";
-import Loader from "./Components/Loader/Loader";
+import Spinner from "./Components/Spinner/Spinner";
 const Home = React.lazy(() => import("./Pages/Home/Home"));
 const About = React.lazy(() => import("./Pages/About/About"));
 const Service = React.lazy(() => import("./Pages/Services/Service"));
@@ -15,7 +15,7 @@ const App = () => {
       <Suspense
         fallback={
           <div className="text-center w-screen h-screen grid place-items-center">
-            <Loader className="text-center w-screen h-screen grid place-items-center" />
+            <Spinner />
           </div>
         }
       >

@@ -125,26 +125,31 @@ export const contactUsCardData = [
 // ======================================================================
 export const FAQData = [
   {
+    id: 1,
     title: "How can I place an order for your cashews?",
     answer:
       " You can place an order directly through our website by selecting your desired cashew products and adding them to your cart. Once you are ready, proceed to checkout where you will enter your shipping and payment details. For bulk orders, you can contact our sales team through the provided email or phone number on our contact page.",
   },
   {
+    id: 2,
     title: "What are the different types of cashews you offer?",
     answer:
       "We offer a variety of cashew products including Golden Crunch Cashews, Tropical Delight Cashews, NutriRich Cashews, Savory Spice Cashews, Nature's Gem Cashews, Pure Bliss Cashews, Prime Harvest Cashews, Velvet Roast Cashews, SunKissed Cashews, Earthy Essence Cashews, Gourmet Select Cashews, and VitalEnergy Cashews.",
   },
   {
+    id: 3,
     title: "Are your cashews organic and sustainably sourced?",
     answer:
       " Yes, our cashews are sourced from certified organic farms and we adhere to sustainable farming practices. We are committed to providing high-quality, environmentally friendly products to our customers.",
   },
   {
+    id: 4,
     title: "What is the shelf life of your cashew products?",
     answer:
       "Our cashew products have a shelf life of 12 months when stored in a cool, dry place. We recommend keeping them in an airtight container to maintain freshness.",
   },
   {
+    id: 5,
     title: "Do you offer international shipping?",
     answer:
       "Yes, we offer international shipping to most countries. Shipping costs and delivery times will vary based on your location. You can find more information about our shipping policies and estimated delivery times on our Shipping Information page. If you have specific shipping requests or need further assistance, please contact our customer service team.",
