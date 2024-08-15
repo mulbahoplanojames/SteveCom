@@ -74,12 +74,12 @@ const Navbar = () => {
                     window.scrollTo(0, 8000);
                   }}
                 >
-                  <Link
-                    to={navlink.path}
+                  <a
+                    href={navlink.path}
                     className="font-montserrat active:text-black text-2xl leading-normal text-white"
                   >
                     {navlink.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
               <Link
